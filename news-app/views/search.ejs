@@ -1,0 +1,10 @@
+<h1>搜索<%= search %>的结果</h1>
+<% if (results.length) { %>
+    <ul>
+        <% for (var i = 0; i < results.length; i++) { %>
+            <li><%= results[i] %></li>
+        <% } %>
+    </ul>
+<% } else { %>
+    <p>没有数据</p>
+<% } %>

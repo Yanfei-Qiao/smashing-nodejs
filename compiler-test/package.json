@@ -11,6 +11,6 @@
   "license": "ISC",
   "dependencies": {
     "cmd-util": "^0.3.13",
-    "grunt": "^1.0.3"
+    "grunt": "^1.5.2"
   }
 }
